@@ -1,9 +1,14 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    max-width: 1280px;
+    text-align: center;
 }
 
 
@@ -13,12 +18,134 @@ header {
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
+    padding: 30px;
+}
+
+header .intro {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: 500;
+    color: #4a4b65;
+}
+
+header h3 {
+    font-size: 2em;
+    font-weight: 300;
+    color: #737491;
 }
 
 header img {
     max-width: 100%;
 }
 
-header .intro {
-    background: #ccc;
+
+/* Section Skills Style */
+section.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background:rgba(118,109,244,0.08);
+    padding-bottom: 60px;
+}
+
+section.skills > img {
+    max-width: 100%;
+    padding: 30px;
+}
+
+section.skills .skills-item img {
+    padding: 48px 0 15px 0;
+}
+
+section .skills-container {
+    flex: 1 1 420px; /* makes the container wrap at certain width */
+    padding: 30px;
+}
+
+section.skills h3 {
+    font-size: 2em;
+    font-weight: 500;
+    color: #4a4b65;
+}
+
+section.skills .title {
+    color: #4a4b65;
+    font-weight: 500;
+    font-size: 0.9em;
+    margin-bottom: 6px;
+}
+
+section.skills .desc {
+    color: #737491;
+}
+
+
+/* Portfolio Style */
+.portfolio {
+    padding: 60px 15px 60px 15px;
+}
+
+.portfolio h3 {
+    font-size: 2em;
+    font-weight: 500;
+    color: #4a4b65;
+    margin-bottom: 30px;
+}
+
+.portfolio p.desc {
+    color: #737491;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.port-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.port-container .port-item {
+    flex: 1 1 320px;
+    margin: 15px;
+}
+
+.port-item img {
+    max-width: 100%;
+}
+
+.port-item .title {
+    font-size: 1em;
+    margin-top: 24px;
+    font-weight: 500;
+    color: #4a4b65;
+}
+
+.port-item .name {
+    font-weight: 500;
+    color: #737491;
+    font-size: 0.9em;
+}
+
+/* Footer Styles */
+footer {
+    background: rgba(118,109,244,0.08);
+    padding: 60px;
+}
+footer h3 {
+    font-size: 2em;
+    font-weight: 500;
+    color: #4a4b65;
+}
+
+footer p.social {
+    margin-bottom: 60px;
+    color: #737491;
+}
+
+footer p.copyright {
+    font-size: 1em;
+    font-weight: 500;
+    color: #737491;
 }
