@@ -85,7 +85,7 @@ section.skills .desc {
 
 /* Portfolio Style */
 .portfolio {
-    padding: 60px 15px 60px 15px;
+    padding: 60px 9px 60px 9px;
 }
 
 .portfolio h3 {
@@ -108,7 +108,7 @@ section.skills .desc {
 
 .port-container .port-item {
     flex: 1 1 320px;
-    margin: 15px;
+    margin: 9px;
 }
 
 .port-item img {
@@ -128,24 +128,27 @@ section.skills .desc {
     font-size: 0.9em;
 }
 
-/* Footer Styles */
-footer {
+/* Contact Styles */
+section.contact {
     background: rgba(118,109,244,0.08);
     padding: 60px;
 }
-footer h3 {
+section.contact h3 {
     font-size: 2em;
     font-weight: 500;
     color: #4a4b65;
 }
 
-footer p.social {
-    margin-bottom: 60px;
+section.contact a {
     color: #737491;
+    text-decoration: none;
 }
 
-footer p.copyright {
+/* Footer Styles */
+
+footer {
     font-size: 1em;
     font-weight: 500;
     color: #737491;
+    padding: 45px;
 }
